@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+boby{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: green;
+    font-size: 40px;    
+}
+h2{
+    color: blue;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p{
+    font-size:20px;
+    background-color:chocolate;
+}
+
+.main-text{
+    font-family: cursive;
+    text-align: justify;
+}
+
+#sub-block{
+    font-family: monospace;
+}
