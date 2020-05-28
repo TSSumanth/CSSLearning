@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top:0px
+}
+.header-insider{
+    /* width: 60%; */
+    /* margin-left: 20%; */
+    margin-right: auto;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(167, 19, 19); */
+}
+.header-insider-logo{
+    position: absolute;
+    top:30%;
+    float: left;
+}
+.header-insider-logo h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+} 
+.navigation-bar{
+    right: 0px;
+    top:15px;
+    position: absolute;
+}
+
+.navigation-bar ul{
+    list-style: none;  
+    position: sticky;      
+}
+
+.navigation-bar ul li{
+    padding: 5px;
+    /* position: absolute; */
+    margin: 20px;
+    display: inline-block;
+    border:1px solid white;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    /* position: sticky; */
+    bottom:0px;
+}
+.footer-left{
+    height:100%;
+    /* background-color: green; */
+    /* width:50%; */
+    float: left;
+}
+
+.footer-left ul{
+    list-style: none;  
+}
+
+.footer-left ul li{
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.footer-left ul li a{
+  font-family: serif;
+  color: red;
+}
+
+.footer-right{
+    height:100%;
+    /* background-color: orange; */
+    /* width:50%; */
+    float: right;
+    
+}
+
+.footer-right ul{
+    list-style: none; 
+   
+}
+.footer-right ul li a{
+    font-family: serif;
+    color: green;
+  }
+.section{
+    top:120px
+}
